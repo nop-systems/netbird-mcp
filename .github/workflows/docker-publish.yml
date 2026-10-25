@@ -20,7 +20,7 @@ jobs:
     permissions:
       contents: read
       packages: write
-      id-token: ***
+      id-token: write
 
     steps:
       - name: Checkout repository
